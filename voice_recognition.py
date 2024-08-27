@@ -28,7 +28,7 @@ root.title("Voice Recognition")
 result_text = tk.StringVar()
 result_text.set("Press 'Start' and speak...")
 
-# Creatinf GUI elements
+# Creating GUI elements
 label = tk.Label(root, textvariable=result_text, wraplength=400)
 label.pack(pady=20)
 
